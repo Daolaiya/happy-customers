@@ -7,7 +7,7 @@ Machine learning analysis for predicting customer happiness from survey response
 ```
 HC/
 ├── notebook_hc.ipynb   # Main analysis notebook
-├── raw_data.csv        # Public training subset (126 rows)
+├── data_raw.csv        # Public training subset (126 rows)
 ├── models/             # Saved model pickles (created when notebook runs)
 ├── requirements.txt
 └── README.md
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 jupyter notebook notebook_hc.ipynb
 ```
 
-`raw_data.csv` is already included. The Google Drive link in the challenge brief is optional if you use this copy.
+`data_raw.csv` is already included. The Google Drive link in the challenge brief is optional if you use this copy.
 
 ## Usage
 
